@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Mes tâches';
+  tabs : any = [{label: "Composant A", link: "/a"}, {label: "Composant B", link: "/b"}]
 }
